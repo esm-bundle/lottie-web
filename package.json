@@ -1,9 +1,9 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
+  "name": "@esm-bundle/lottie-web",
+  "version": "0.0.0-unpublished.0",
   "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "main": "lottie.js",
+  "module": "esm/lottie.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -27,17 +27,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/lottie-web.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/lottie-web/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/lottie-web#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.2.0"
+    "esm-bundle-scripts": "1.2.0",
+    "glob-all": "^3.2.1",
+    "lottie-web": "^5.7.6",
+    "rollup-plugin-copy": "^3.3.0"
   },
   "publishConfig": {
     "access": "public"

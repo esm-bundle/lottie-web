@@ -9,3 +9,4 @@ system/
 .kodiak.toml
 karma.conf.cjs
 .nvmrc
+index.d.ts
