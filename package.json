@@ -37,9 +37,9 @@
   "homepage": "https://github.com/esm-bundle/lottie-web#readme",
   "devDependencies": {
     "esm-bundle-scripts": "1.2.0",
-    "glob-all": "^3.2.1",
-    "lottie-web": "^5.7.6",
-    "rollup-plugin-copy": "^3.3.0"
+    "glob-all": "3.2.1",
+    "lottie-web": "5.7.6",
+    "rollup-plugin-copy": "3.3.0"
   },
   "publishConfig": {
     "access": "public"

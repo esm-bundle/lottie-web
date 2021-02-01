@@ -2512,7 +2512,7 @@ git-url-parse@11.1.2:
   dependencies:
     git-up "^4.0.0"
 
-glob-all@^3.2.1:
+glob-all@3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/glob-all/-/glob-all-3.2.1.tgz#082ca81afd2247cbd3ed2149bb2630f4dc877d95"
   integrity sha512-x877rVkzB3ipid577QOp+eQCR6M5ZyiwrtaYgrX/z3EThaSPFtLDwBXFHc3sH1cG0R0vFYI5SRYeWMMSEyXkUw==
@@ -3892,7 +3892,7 @@ lolex@^5.0.0:
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-lottie-web@^5.7.6:
+lottie-web@5.7.6:
   version "5.7.6"
   resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.7.6.tgz#f20e5555ff120dc1e07ba53adb40061e822f3c48"
   integrity sha512-qn/KYMI4QQvFDhtoxs0RPkn9uZKhDB9keE5BKgbJlSRfNEZpRiDlwBE9ibYz4nPhbyE+NUlt8IRIVR7g5OSX3w==
@@ -5015,7 +5015,7 @@ rollup-cli@^1.0.9:
   resolved "https://registry.yarnpkg.com/rollup-cli/-/rollup-cli-1.0.9.tgz#37f4a1c206311e292e3297ea97779db8a21db994"
   integrity sha1-N/ShwgYxHikuMpfql3eduKIduZQ=
 
-rollup-plugin-copy@^3.3.0:
+rollup-plugin-copy@3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/rollup-plugin-copy/-/rollup-plugin-copy-3.3.0.tgz#5ba230047f86b9f703a29288f242948a5580e7b9"
   integrity sha512-euDjCUSBXZa06nqnwCNADbkAcYDfzwowfZQkto9K/TFhiH+QG7I4PUsEMwM9tDgomGWJc//z7KLW8t+tZwxADA==
