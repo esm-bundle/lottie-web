@@ -4,8 +4,6 @@ import { terser } from "rollup-plugin-terser";
 import copy from "rollup-plugin-copy";
 import { sync } from "glob-all";
 
-path.dirname(require.resolve("lottie-web/package.json"));
-
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
   const cwd = path.dirname(require.resolve("lottie-web/package.json"));
