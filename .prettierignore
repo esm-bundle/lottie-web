@@ -10,3 +10,6 @@ system/
 karma.conf.cjs
 .nvmrc
 index.d.ts
+pnpm-lock.yaml
+.github/
+.husky/
