@@ -6,7 +6,7 @@
   "module": "esm/lottie.js",
   "type": "module",
   "scripts": {
-    "test": "yarn build && concurrently -n w: 'yarn:test:*'",
+    "test": "pnpm build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
@@ -14,7 +14,7 @@
     "build": "rollup -c",
     "format": "prettier --write './**/*'",
     "release": "release-it",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "pnpm build",
     "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
@@ -37,7 +37,6 @@
     "@rollup/plugin-node-resolve": "^11.2.0",
     "chai": "^4.3.0",
     "concurrently": "^6.0.0",
-    "esm-bundle-scripts": "1.2.0",
     "glob-all": "3.2.1",
     "husky": "5",
     "jest-cli": "^26.6.3",
