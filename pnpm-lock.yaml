@@ -9,7 +9,7 @@ devDependencies:
   karma: 6.2.0
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1_karma@6.2.0
-  lottie-web: 5.7.6
+  lottie-web: 5.7.7
   mocha: 8.3.2
   pinst: 2.1.6
   prettier: 2.2.1
@@ -4069,10 +4069,10 @@ packages:
       node: '>=8.0'
     resolution:
       integrity: sha512-Mc8jNuSFImQUIateBFwdOQcmC6Q5maU0VVvdC2R6XMb66/VnT+7WS4D/0EeNMZu1YODmJe5NIn2XftCzEocUgw==
-  /lottie-web/5.7.6:
+  /lottie-web/5.7.7:
     dev: true
     resolution:
-      integrity: sha512-qn/KYMI4QQvFDhtoxs0RPkn9uZKhDB9keE5BKgbJlSRfNEZpRiDlwBE9ibYz4nPhbyE+NUlt8IRIVR7g5OSX3w==
+      integrity: sha512-dAUrMX5BRxP7dr+qDWzablhGY6SqXztCS46sW11wjuzExQKZl5GLX2yMGGqg4AkdjgfjetndcU+VR1xoLhlkpA==
   /lowercase-keys/1.0.1:
     dev: true
     engines:
@@ -6401,7 +6401,7 @@ specifiers:
   karma: 6.2.0
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
-  lottie-web: 5.7.6
+  lottie-web: 5.7.7
   mocha: 8.3.2
   pinst: 2.1.6
   prettier: 2.2.1
