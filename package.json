@@ -39,7 +39,7 @@
     "concurrently": "6.2.0",
     "glob-all": "3.2.1",
     "husky": "6.0.0",
-    "jest-cli": "27.0.0",
+    "jest-cli": "27.0.1",
     "karma": "6.3.2",
     "karma-firefox-launcher": "2.1.0",
     "karma-jasmine": "4.0.1",
