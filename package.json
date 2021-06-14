@@ -40,7 +40,7 @@
     "glob-all": "3.2.1",
     "husky": "6.0.0",
     "jest-cli": "27.0.4",
-    "karma": "6.3.3",
+    "karma": "6.3.4",
     "karma-firefox-launcher": "2.1.1",
     "karma-jasmine": "4.0.1",
     "lottie-web": "5.7.8",
