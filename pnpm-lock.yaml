@@ -4,7 +4,7 @@ specifiers:
   '@rollup/plugin-commonjs': 21.0.1
   '@rollup/plugin-node-resolve': 13.1.1
   chai: 4.3.4
-  concurrently: 6.4.0
+  concurrently: 6.5.0
   glob-all: 3.2.1
   husky: 7.0.4
   jest-cli: 27.4.5
@@ -26,7 +26,7 @@ devDependencies:
   '@rollup/plugin-commonjs': 21.0.1_rollup@2.61.1
   '@rollup/plugin-node-resolve': 13.1.1_rollup@2.61.1
   chai: 4.3.4
-  concurrently: 6.4.0
+  concurrently: 6.5.0
   glob-all: 3.2.1
   husky: 7.0.4
   jest-cli: 27.4.5
@@ -1510,8 +1510,8 @@ packages:
     resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
     dev: true
 
-  /concurrently/6.4.0:
-    resolution: {integrity: sha512-HZ3D0RTQMH3oS4gvtYj1P+NBc6PzE2McEra6yEFcQKrUQ9HvtTGU4Dbne083F034p+LRb7kWU0tPRNvSGs1UCQ==}
+  /concurrently/6.5.0:
+    resolution: {integrity: sha512-BjC0KYxXtO6EiWa46gfWYzcLULPBCb+5+VZFtzCemR/co0QSHU4mysEvmT6cnedPpQ9dtJzb+2G694o3V7TgLg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
