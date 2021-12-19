@@ -36,7 +36,7 @@
     "@rollup/plugin-commonjs": "21.0.1",
     "@rollup/plugin-node-resolve": "13.1.1",
     "chai": "4.3.4",
-    "concurrently": "6.5.0",
+    "concurrently": "6.5.1",
     "glob-all": "3.2.1",
     "husky": "7.0.4",
     "jest-cli": "27.4.5",
