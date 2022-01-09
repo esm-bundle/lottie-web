@@ -16,7 +16,7 @@ specifiers:
   pinst: 2.1.6
   prettier: 2.5.1
   pretty-quick: 3.1.3
-  release-it: 14.11.8
+  release-it: 14.12.1
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.63.0
   rollup-plugin-copy: 3.3.0
@@ -38,7 +38,7 @@ devDependencies:
   pinst: 2.1.6
   prettier: 2.5.1
   pretty-quick: 3.1.3_prettier@2.5.1
-  release-it: 14.11.8
+  release-it: 14.12.1
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.63.0
   rollup-plugin-copy: 3.3.0
@@ -341,7 +341,7 @@ packages:
       '@babel/helper-split-export-declaration': 7.12.13
       '@babel/parser': 7.16.7
       '@babel/types': 7.13.0
-      debug: 4.3.2
+      debug: 4.3.3
       globals: 11.12.0
       lodash: 4.17.21
     transitivePeerDependencies:
@@ -605,7 +605,7 @@ packages:
       '@octokit/graphql': 4.6.0
       '@octokit/request': 5.6.0
       '@octokit/request-error': 2.1.0
-      '@octokit/types': 6.28.1
+      '@octokit/types': 6.34.0
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     dev: true
@@ -624,10 +624,6 @@ packages:
       '@octokit/request': 5.6.0
       '@octokit/types': 6.34.0
       universal-user-agent: 6.0.0
-    dev: true
-
-  /@octokit/openapi-types/10.2.2:
-    resolution: {integrity: sha512-EVcXQ+ZrC04cg17AMg1ofocWMxHDn17cB66ZHgYc0eUwjFtxS0oBzkyw2VqIrHBwVgtfoYrq1WMQfQmMjUwthw==}
     dev: true
 
   /@octokit/openapi-types/11.2.0:
@@ -687,12 +683,6 @@ packages:
       '@octokit/plugin-paginate-rest': 2.17.0_@octokit+core@3.5.1
       '@octokit/plugin-request-log': 1.0.4_@octokit+core@3.5.1
       '@octokit/plugin-rest-endpoint-methods': 5.13.0_@octokit+core@3.5.1
-    dev: true
-
-  /@octokit/types/6.28.1:
-    resolution: {integrity: sha512-XlxDoQLFO5JnFZgKVQTYTvXRsQFfr/GwDUU108NJ9R5yFPkA2qXhTJjYuul3vE4eLXP40FA2nysOu2zd6boE+w==}
-    dependencies:
-      '@octokit/openapi-types': 10.2.2
     dev: true
 
   /@octokit/types/6.34.0:
@@ -974,7 +964,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1670,6 +1660,18 @@ packages:
       supports-color: 8.1.1
     dev: true
 
+  /debug/4.3.3:
+    resolution: {integrity: sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+    dev: true
+
   /decamelize/1.2.0:
     resolution: {integrity: sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=}
     engines: {node: '>=0.10.0'}
@@ -1868,7 +1870,7 @@ packages:
       base64id: 2.0.0
       cookie: 0.4.1
       cors: 2.8.5
-      debug: 4.3.2
+      debug: 4.3.3
       engine.io-parser: 5.0.1
       ws: 8.2.3
     transitivePeerDependencies:
@@ -2389,7 +2391,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2418,7 +2420,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2742,7 +2744,7 @@ packages:
     resolution: {integrity: sha512-c16LpFRkR8vQXyHZ5nLpY35JZtzj1PQY1iZmesUbf1FZHbIupcWfjgOXBY9YHkLEQ6puz1u4Dgj6qmU/DisrZg==}
     engines: {node: '>=8'}
     dependencies:
-      debug: 4.3.2
+      debug: 4.3.3
       istanbul-lib-coverage: 3.2.0
       source-map: 0.6.1
     transitivePeerDependencies:
@@ -3431,7 +3433,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 3.0.0
-      debug: 4.3.2
+      debug: 4.3.3
       flatted: 2.0.2
       rfdc: 1.2.0
       streamroller: 2.2.4
@@ -4087,8 +4089,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.11.8:
-    resolution: {integrity: sha512-951DJ0kwjwU7CwGU3BCvRBgLxuJsOPRrZkqx0AsugJdSyPpUdwY9nlU0RAoSKqgh+VTerzecXLIIwgsGIpNxlA==}
+  /release-it/14.12.1:
+    resolution: {integrity: sha512-dYPGZ7F/kfIWzsGlzNCL6PiWfPoaVUILcmqQm80kgYhI/b9RW3k6DVqE0nqI4fHxRT3fMeKWWvS0jdQmFDKn3Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -4097,7 +4099,7 @@ packages:
       async-retry: 1.3.3
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      debug: 4.3.2
+      debug: 4.3.3
       deprecated-obj: 2.0.0
       execa: 5.1.1
       form-data: 4.0.0
@@ -4376,7 +4378,7 @@ packages:
     dependencies:
       '@types/component-emitter': 1.2.10
       component-emitter: 1.3.0
-      debug: 4.3.2
+      debug: 4.3.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4387,7 +4389,7 @@ packages:
     dependencies:
       accepts: 1.3.7
       base64id: 2.0.0
-      debug: 4.3.2
+      debug: 4.3.3
       engine.io: 6.0.0
       socket.io-adapter: 2.3.2
       socket.io-parser: 4.0.4
@@ -4453,7 +4455,7 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       date-format: 2.1.0
-      debug: 4.3.2
+      debug: 4.3.3
       fs-extra: 8.1.0
     transitivePeerDependencies:
       - supports-color
