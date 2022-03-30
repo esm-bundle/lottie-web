@@ -10,7 +10,7 @@ specifiers:
   jest-cli: 27.5.1
   karma: 6.3.17
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.1
+  karma-jasmine: 4.0.2
   lottie-web: 5.8.1
   mocha: 9.2.2
   pinst: 3.0.0
@@ -32,7 +32,7 @@ devDependencies:
   jest-cli: 27.5.1
   karma: 6.3.17
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.1_karma@6.3.17
+  karma-jasmine: 4.0.2_karma@6.3.17
   lottie-web: 5.8.1
   mocha: 9.2.2
   pinst: 3.0.0
@@ -3294,8 +3294,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.17:
-    resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
+  /karma-jasmine/4.0.2_karma@6.3.17:
+    resolution: {integrity: sha512-ggi84RMNQffSDmWSyyt4zxzh2CQGwsxvYYsprgyR1j8ikzIduEdOlcLvXjZGwXG/0j41KUXOWsUCBfbEHPWP9g==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
