@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@rollup/plugin-commonjs': 23.0.0
+  '@rollup/plugin-commonjs': 23.0.1
   '@rollup/plugin-node-resolve': 15.0.0
   chai: 4.3.4
   concurrently: 7.4.0
@@ -23,7 +23,7 @@ specifiers:
   rollup-plugin-terser: 7.0.2
 
 devDependencies:
-  '@rollup/plugin-commonjs': 23.0.0_rollup@2.79.1
+  '@rollup/plugin-commonjs': 23.0.1_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.0.0_rollup@2.79.1
   chai: 4.3.4
   concurrently: 7.4.0
@@ -789,8 +789,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-commonjs/23.0.0_rollup@2.79.1:
-    resolution: {integrity: sha512-JbrTRyDNtLQj/rhl7RFUuYXwQ2fac+33oLDAu2k++WD95zweyo28UAomLVA0JMGx4vmCa7Nw4T6k/1F6lelExg==}
+  /@rollup/plugin-commonjs/23.0.1_rollup@2.79.1:
+    resolution: {integrity: sha512-hIMCvNrYmW5G0VRmitlkKQPk9R7lTnQ138pzyWOWBmihwRKI1HNrZspwdzDGL98SQAG5T2aDRcuTeD166Kk+sw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
@@ -798,7 +798,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 4.2.1
+      '@rollup/pluginutils': 5.0.1_rollup@2.79.1
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 8.0.3
@@ -831,6 +831,21 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.0
+    dev: true
+
+  /@rollup/pluginutils/5.0.1_rollup@2.79.1:
+    resolution: {integrity: sha512-4HaCVEXXuObvcPUaUlLt4faHYHCeQOOWNj8NKFGaRSrw3ZLD0TWeAFZicV9vXjnE2nkNuaVTfTuwAnjR+6uc9A==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.0
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+      rollup: 2.79.1
     dev: true
 
   /@sinclair/typebox/0.24.19:
@@ -914,6 +929,10 @@ packages:
 
   /@types/estree/0.0.46:
     resolution: {integrity: sha512-laIjwTQaD+5DukBZaygQ79K1Z0jb1bPEMRrkXSLjtCcZm+abyp5YbrqpSLzD42FwWW6gK/aS4NYpJ804nG2brg==}
+    dev: true
+
+  /@types/estree/1.0.0:
+    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
   /@types/fs-extra/8.1.1:
@@ -1081,7 +1100,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       normalize-path: 3.0.0
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /argparse/1.0.10:
@@ -3415,7 +3434,7 @@ packages:
       chalk: 4.1.2
       ci-info: 3.2.0
       graceful-fs: 4.2.10
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /jest-validate/29.2.1:
@@ -3719,7 +3738,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /mime-db/1.52.0:
@@ -4175,6 +4194,11 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  /picomatch/2.3.1:
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
+    engines: {node: '>=8.6'}
+    dev: true
+
   /pinst/3.0.0:
     resolution: {integrity: sha512-cengSmBxtCyaJqtRSvJorIIZXMXg+lJ3sIljGmtBGUVonMnMsVJbnzl6jGN1HkOWwxNuJynCJ2hXxxqCQrFDdw==}
     engines: {node: '>=12.0.0'}
@@ -4367,7 +4391,7 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
     dependencies:
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /rechoir/0.6.2:
