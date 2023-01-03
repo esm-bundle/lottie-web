@@ -38,7 +38,7 @@
     "chai": "4.3.4",
     "concurrently": "7.6.0",
     "glob-all": "3.3.1",
-    "husky": "8.0.2",
+    "husky": "8.0.3",
     "jest-cli": "29.3.1",
     "karma": "6.4.1",
     "karma-firefox-launcher": "2.1.2",
