@@ -8,7 +8,7 @@ specifiers:
   glob-all: 3.3.1
   husky: 8.0.3
   jest-cli: 29.5.0
-  karma: 6.4.1
+  karma: 6.4.2
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 5.1.0
   lottie-web: 5.8.1
@@ -30,9 +30,9 @@ devDependencies:
   glob-all: 3.3.1
   husky: 8.0.3
   jest-cli: 29.5.0
-  karma: 6.4.1
+  karma: 6.4.2
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 5.1.0_karma@6.4.1
+  karma-jasmine: 5.1.0_karma@6.4.2
   lottie-web: 5.8.1
   mocha: 10.2.0
   pinst: 3.0.0
@@ -3614,18 +3614,18 @@ packages:
       which: 2.0.2
     dev: true
 
-  /karma-jasmine/5.1.0_karma@6.4.1:
+  /karma-jasmine/5.1.0_karma@6.4.2:
     resolution: {integrity: sha512-i/zQLFrfEpRyQoJF9fsCdTMOF5c2dK7C7OmsuKg2D0YSsuZSfQDiLuaiktbuio6F2wiCsZSnSnieIQ0ant/uzQ==}
     engines: {node: '>=12'}
     peerDependencies:
       karma: ^6.0.0
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.4.1
+      karma: 6.4.2
     dev: true
 
-  /karma/6.4.1:
-    resolution: {integrity: sha512-Cj57NKOskK7wtFWSlMvZf459iX+kpYIPXmkNUzP2WAFcA7nhr/ALn5R7sw3w+1udFDcpMx/tuB8d5amgm3ijaA==}
+  /karma/6.4.2:
+    resolution: {integrity: sha512-C6SU/53LB31BEgRg+omznBEMY4SjHU3ricV6zBcAe1EeILKkeScr+fZXtaI5WyDbkVowJxxAI6h73NcFPmXolQ==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
@@ -3636,14 +3636,14 @@ packages:
       connect: 3.7.0
       di: 0.0.1
       dom-serialize: 2.2.1
-      glob: 7.2.0
+      glob: 7.2.3
       graceful-fs: 4.2.10
       http-proxy: 1.18.1
       isbinaryfile: 4.0.8
       lodash: 4.17.21
       log4js: 6.4.1
       mime: 2.5.2
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       mkdirp: 0.5.5
       qjobs: 1.2.0
       range-parser: 1.2.1
@@ -3867,12 +3867,6 @@ packages:
   /mimic-response/4.0.0:
     resolution: {integrity: sha512-e5ISH9xMYU0DzrT+jl8q2ze9D6eWBto+I8CNpe+VI+K2J/F/k3PdkdTdz4wvGVH4NTpo+NRYTVIuMQEMMcsLqg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-    dev: true
-
-  /minimatch/3.0.4:
-    resolution: {integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==}
-    dependencies:
-      brace-expansion: 1.1.11
     dev: true
 
   /minimatch/3.1.2:
