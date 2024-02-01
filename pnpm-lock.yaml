@@ -6,7 +6,7 @@ specifiers:
   chai: 4.3.4
   concurrently: 8.2.2
   glob-all: 3.3.1
-  husky: 9.0.7
+  husky: 9.0.9
   jest-cli: 29.7.0
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
@@ -28,7 +28,7 @@ devDependencies:
   chai: 4.3.4
   concurrently: 8.2.2
   glob-all: 3.3.1
-  husky: 9.0.7
+  husky: 9.0.9
   jest-cli: 29.7.0
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
@@ -2711,8 +2711,8 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
-  /husky/9.0.7:
-    resolution: {integrity: sha512-vWdusw+y12DUEeoZqW1kplOFqk3tedGV8qlga8/SF6a3lOiWLqGZZQvfWvY0fQYdfiRi/u1DFNpudTSV9l1aCg==}
+  /husky/9.0.9:
+    resolution: {integrity: sha512-eW92PRr1XPKDWd7/iM2JvAl9gEKK3TF69yvbllQtKSYBw+Wtoi+P38NqH1Z7++sSd80FBkFagBFJkoQvMhCnGw==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
