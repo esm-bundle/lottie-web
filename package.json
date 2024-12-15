@@ -34,7 +34,7 @@
   "homepage": "https://github.com/esm-bundle/lottie-web#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "28.0.2",
-    "@rollup/plugin-node-resolve": "15.3.1",
+    "@rollup/plugin-node-resolve": "16.0.0",
     "chai": "4.3.4",
     "concurrently": "9.1.0",
     "glob-all": "3.3.1",
