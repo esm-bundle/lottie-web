@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@rollup/plugin-commonjs': 28.0.6
+  '@rollup/plugin-commonjs': 28.0.9
   '@rollup/plugin-node-resolve': 16.0.3
   chai: 4.3.4
   concurrently: 9.2.1
@@ -23,7 +23,7 @@ specifiers:
   rollup-plugin-terser: 7.0.2
 
 devDependencies:
-  '@rollup/plugin-commonjs': 28.0.6_rollup@2.79.2
+  '@rollup/plugin-commonjs': 28.0.9_rollup@2.79.2
   '@rollup/plugin-node-resolve': 16.0.3_rollup@2.79.2
   chai: 4.3.4
   concurrently: 9.2.1
@@ -1002,8 +1002,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@rollup/plugin-commonjs/28.0.6_rollup@2.79.2:
-    resolution: {integrity: sha512-XSQB1K7FUU5QP+3lOQmVCE3I0FcbbNvmNT4VJSj93iUjayaARrTQeoRdiYQoftAJBLrR9t2agwAd3ekaTgHNlw==}
+  /@rollup/plugin-commonjs/28.0.9_rollup@2.79.2:
+    resolution: {integrity: sha512-PIR4/OHZ79romx0BVVll/PkwWpJ7e5lsqFa3gFfcrFPWwLXLV39JVUzQV9RKjWerE7B845Hqjj9VYlQeieZ2dA==}
     engines: {node: '>=16.0.0 || 14 >= 14.17'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
@@ -1014,10 +1014,10 @@ packages:
       '@rollup/pluginutils': 5.0.1_rollup@2.79.2
       commondir: 1.0.1
       estree-walker: 2.0.2
-      fdir: 6.4.4_picomatch@4.0.2
+      fdir: 6.5.0_picomatch@4.0.3
       is-reference: 1.2.1
       magic-string: 0.30.5
-      picomatch: 4.0.2
+      picomatch: 4.0.3
       rollup: 2.79.2
     dev: true
 
@@ -2127,17 +2127,6 @@ packages:
     resolution: {integrity: sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==}
     dependencies:
       bser: 2.1.1
-    dev: true
-
-  /fdir/6.4.4_picomatch@4.0.2:
-    resolution: {integrity: sha512-1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==}
-    peerDependencies:
-      picomatch: ^3 || ^4
-    peerDependenciesMeta:
-      picomatch:
-        optional: true
-    dependencies:
-      picomatch: 4.0.2
     dev: true
 
   /fdir/6.5.0_picomatch@4.0.3:
